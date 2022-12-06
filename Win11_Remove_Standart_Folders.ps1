@@ -1,4 +1,6 @@
 
+#Скрипт убирает из проводника стандартные папки "Видео, Документ, Картинки и т.д"
+
 $BaseFolder = "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\"
 
 $ht_folders = @{
