@@ -28,7 +28,7 @@ foreach($key in $ht_folders.keys)
     Write-Output $message
 
     $oldPath = $BaseFolder + $folder_id
-    $newPath = $BaseFolder + "Copy_" + $folder_id
+    $newPath = $BaseFolder + "REMOVED___" + $folder_id
     #Write-Output "oldPath: $oldPath"
     #Write-Output "newPath: $newPath"
     reg copy $oldPath $newPath
